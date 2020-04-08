@@ -2,7 +2,9 @@
   <div class="home">
     <Layout class="main_layout">
       <Header class="main_header">Template_Generator</Header>
-      <Content class="main_content">Content</Content>
+      <Content class="main_content">
+        <router-view />
+      </Content>
       <Footer>Footer</Footer>
     </Layout>
   </div>
